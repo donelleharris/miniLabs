@@ -1,0 +1,21 @@
+img {
+    height: 50px;
+}
+body {
+    box-sizing: border-box;
+    horiz-align: center;
+}
+article {
+    height: 1000px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+section {
+    display: flex;
+    align-items: center;
+}
+section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}

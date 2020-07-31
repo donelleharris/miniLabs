@@ -1,0 +1,19 @@
+.danger {
+	color: red;
+}
+
+div:hover {
+	background-color: #00FF00;
+}
+#override {
+	color: inherit;
+}
+.right-just {
+	font-size: 3em;
+	text-align: right;
+	font-family: "Times New Roman", Times, Serif;
+}
+
+p {
+	color: blue;
+}

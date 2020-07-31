@@ -1,0 +1,42 @@
+<!doctype html>
+<title>Example</title>
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .red {
+        background: orangered;
+        display: flex;
+        flex-direction: row;
+    }
+    .green {
+        background: yellowgreen;
+        display: flex;
+        flex-direction: column;
+    }
+    .blue {
+        background: steelblue;
+        display: flex;
+    }
+    .container div {
+        font-size: 5vw;
+        padding: .5em;
+        color: white;
+        flex: 1;
+    }
+</style>
+<div class="container">
+    <div class="red">1
+        <div class="green">1a</div>
+        <div class="blue">1b</div>
+    </div>
+    <div class="green">2
+        <div class="red">2a</div>
+        <div class="blue">2b</div>
+    </div>
+    <div class="blue">3
+        <div class="green">3a</div>
+        <div class="red">3b</div>
+    </div>
+</div>

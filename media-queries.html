@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Media Queries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: tan;
+            color: black;
+        }
+
+        /* On screens that are 992px wide or less, the background color is blue */
+        @media screen and (max-width: 992px) {
+            body {
+                background-color: blue;
+                color: white;
+            }
+            #wide {
+                display: none;
+            }
+            #narrow {
+                display: block;
+            }
+        }
+
+        /* On screens that are 600px wide or less, the background color is olive */
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: olive;
+                color: white;
+            }
+            #wide {
+                display: block;
+            }
+            #narrow {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="narrow">
+    This is the narrow screen mode.
+</div>
+<div id="wide">
+    This is the wide screen mode.
+</div>
+</body>
+</html>
